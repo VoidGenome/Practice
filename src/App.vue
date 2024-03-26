@@ -4,10 +4,13 @@
     <router-link to="/about">About</router-link>
   </nav> -->
     <v-app>
-      <v-main></v-main>
+      <v-main>
+        <router-view/>
+
+      </v-main>
     </v-app>
     
-    <!-- <router-view/> -->
+    
   
 </template>
 
